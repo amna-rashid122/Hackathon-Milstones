@@ -1,0 +1,80 @@
+body  {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 40px;
+}
+
+.resume-container  {
+    display: flex;
+    background-color:rgb(255, 255, 255);
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(5, 117, 117); 
+    
+ }
+
+.left-section {
+    background-color: rgb(0, 0, 0);
+    color: white; 
+    padding: 15px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid rgb(5, 238, 238);
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid rgb(32, 193, 199);
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgb(43, 129, 228);
+}
+
+h1 {
+    font-size: 20px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    max-width: 20px 0 10px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(18, 185, 190) ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+ 
+ ul {
+    list-style-type: fill round;
+    padding: 1%;
+    margin: 5px 0;
+ }
+ ul li {
+    margin: 1px 0;
+ }
+
+ .right-section {
+    padding: 20px;
+    width: 65%;
+ }
+
+ button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(50, 121, 202);
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+ }
+
+ button:hover {
+    background-color: #0f7aa5;
+ }
